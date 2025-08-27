@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicXML Rhythm Combiner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.8.0/build/opensheetmusicdisplay.min.js"></script>
+</head>
+<body>
+    <h1>MusicXML Rhythm Combiner</h1>
+    <div>
+        <label for="beatsInput">Number of beats per measure:</label>
+        <input type="number" id="beatsInput" value="4" min="1">
+    </div>
+    <button id="loadMusicButton">Load and Combine Music</button>
+    <div id="osmdCanvas"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
