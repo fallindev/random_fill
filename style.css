@@ -9,10 +9,33 @@ body {
 #osmdCanvas {
     max-width: 1000px;
     width: 90%;
-    height: 600px;
+    /* height: 600px; */ /* 개별 악보 표시를 위해 높이 주석 처리 */
     border: 1px solid #ccc;
     margin-top: 20px;
     overflow: auto;
+}
+
+.individual-measure-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.individual-measure-container label {
+    margin-left: 5px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.individual-measure-container input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.individual-measure-container > div[id^="osmd-individual-canvas-"] {
+    flex-grow: 1;
 }
 
 button {
