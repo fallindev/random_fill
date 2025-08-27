@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
         autoResize: true,
         backend: "svg",
         drawTitle: false,
-        drawSubtitle: true,
-        drawComposer: true,
-        drawLyricist: true,
+        drawSubtitle: false,
+        drawComposer: false,
+        drawLyricist: false,
         drawMetronomeMarks: false,
         drawDynamics: false,
         drawExpressions: false,
@@ -144,6 +144,23 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    const checkAllButton = document.getElementById("checkAllButton");
+    const uncheckAllButton = document.getElementById("uncheckAllButton");
+
+    checkAllButton.addEventListener("click", () => {
+        document.querySelectorAll('.measure-checkbox').forEach(checkbox => {
+            checkbox.checked = true;
+        });
+        saveCheckboxStates(); // 상태 변경 후 저장
+    });
+
+    uncheckAllButton.addEventListener("click", () => {
+        document.querySelectorAll('.measure-checkbox').forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        saveCheckboxStates(); // 상태 변경 후 저장
+    });
+
     // 페이지 로드 시 모든 원본 리듬을 자동으로 표시하는 함수
     async function loadAndDisplayAllOriginalRhythms() {
         try {
@@ -187,6 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 checkbox.id = `measure-${index}`;
                 checkbox.value = index;
                 checkbox.checked = true; // 기본적으로 모두 선택되도록 설정
+                checkbox.addEventListener('change', saveCheckboxStates); // 상태 변경 시 저장
 
                 const label = document.createElement('label');
                 label.htmlFor = `measure-${index}`;
@@ -298,11 +316,44 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
 
+            loadCheckboxStates(); // 체크박스 상태 불러오기
+
         } catch (error) {
             console.error("모든 원본 MusicXML 로드 또는 처리 중 오류 발생:", error);
             osmdCanvas.innerHTML = `<p style="color: red;">오류: ${error.message}</p>`;
         }
     }
+
+    // 체크박스 상태를 localStorage에 저장하는 함수
+    function saveCheckboxStates() {
+        const checkedIndices = [];
+        document.querySelectorAll('.measure-checkbox:checked').forEach(checkbox => {
+            checkedIndices.push(parseInt(checkbox.value, 10));
+        });
+        localStorage.setItem('checkedRhythms', JSON.stringify(checkedIndices));
+        console.log('Checkbox states saved:', checkedIndices);
+    }
+
+    // localStorage에서 체크박스 상태를 불러오는 함수
+    function loadCheckboxStates() {
+        const savedState = localStorage.getItem('checkedRhythms');
+        if (savedState) {
+            try {
+                const checkedIndices = JSON.parse(savedState);
+                document.querySelectorAll('.measure-checkbox').forEach(checkbox => {
+                    checkbox.checked = checkedIndices.includes(parseInt(checkbox.value, 10));
+                });
+                console.log('Checkbox states loaded:', checkedIndices);
+            } catch (e) {
+                console.error("Error parsing saved checkbox states from localStorage:", e);
+                // 오류 발생 시 저장된 상태를 지워 다음 로드 시 문제가 없도록 함
+                localStorage.removeItem('checkedRhythms');
+            }
+        }
+        else {
+            console.log('No saved checkbox states found.');
+        }
+    } 
 
     // 페이지 로드 시 자동으로 함수 호출
     loadAndDisplayAllOriginalRhythms();
