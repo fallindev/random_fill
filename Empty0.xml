@@ -1208,16 +1208,5 @@
     </notations>
    </note>
   </measure>
-  <measure number="6">
-   <attributes>
-    <divisions>1</divisions>
-    <staff-details number="1">
-<?GP 
-<root>
-</root>
-?>
-    </staff-details>
-   </attributes>
-  </measure>
  </part>
 </score-partwise>

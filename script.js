@@ -2,11 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmdCanvas", {
         autoResize: true,
         backend: "svg",
-        drawTitle: true,
+        drawTitle: false,
         // drawSubtitle: true,
         drawComposer: true,
-        drawLyricist: true,
-        drawMetronomeMarks: true,
+        drawLyricist: false,
+        drawMetronomeMarks: false,
+        drawDynamics: false,
+        drawExpressions: false,
+        drawWords: false,
+        drawDirections: false,
         drawPartNames: true,
         drawPartAbbrs: true,
         drawMeasureNumbers: true,
@@ -22,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // coloringMode: 1,
     });
 
+    const beatsInput = document.getElementById("beatsInput");
     const loadMusicButton = document.getElementById("loadMusicButton");
     const osmdCanvas = document.getElementById("osmdCanvas");
 
@@ -60,29 +65,34 @@ document.addEventListener("DOMContentLoaded", () => {
             let existingMeasures = newPart.querySelectorAll("measure");
             existingMeasures.forEach(measure => measure.remove());
 
+            const numberOfBeats = parseInt(beatsInput.value, 10);
+            if (isNaN(numberOfBeats) || numberOfBeats < 1) {
+                throw new Error("유효한 박자 수를 입력해주세요 (1 이상).");
+            }
+
             const numberOfNewMeasures = 1; // Generate only 1 new 4-beat measure
 
             for (let i = 0; i < numberOfNewMeasures; i++) {
                 const newMeasure = newXmlDoc.createElement("measure");
                 newMeasure.setAttribute("number", (i + 1).toString());
 
-                // 첫 번째 마디에만 attributes를 추가하고 4/4 박자로 변경합니다.
+                // 첫 번째 마디에만 attributes를 추가하고 입력된 박자로 변경합니다.
                 if (i === 0) { // 생성된 악보의 첫 번째 마디에만 적용
                     const originalFirstMeasureAttributes = xmlDoc.querySelector("part > measure > attributes");
                     if (originalFirstMeasureAttributes) {
                         const newAttributes = newXmlDoc.importNode(originalFirstMeasureAttributes, true);
                         
-                        // 박자를 4/4로 변경합니다.
+                        // 박자를 입력된 값으로 변경합니다.
                         let timeElement = newAttributes.querySelector("time");
                         if (timeElement) {
                             let beats = timeElement.querySelector("beats");
                             let beatType = timeElement.querySelector("beat-type");
-                            if (beats) beats.textContent = "4";
-                            if (beatType) beatType.textContent = "4";
+                            if (beats) beats.textContent = numberOfBeats.toString();
+                            if (beatType) beatType.textContent = "4"; // 4분음표 기준 박자
                         } else { // time 요소가 없으면 새로 생성합니다.
                             timeElement = newXmlDoc.createElement("time");
                             const beats = newXmlDoc.createElement("beats");
-                            beats.textContent = "4";
+                            beats.textContent = numberOfBeats.toString();
                             const beatType = newXmlDoc.createElement("beat-type");
                             beatType.textContent = "4";
                             timeElement.appendChild(beats);
@@ -93,13 +103,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 }
 
-                // 원본 1박 마디 중 4개를 랜덤으로 선택하여 새 마디에 추가합니다.
-                for (let j = 0; j < 4; j++) {
+                // 입력된 박자 수만큼 원본 1박 마디를 랜덤으로 선택하여 새 마디에 추가합니다.
+                for (let j = 0; j < numberOfBeats; j++) {
                     const randomIndex = Math.floor(Math.random() * originalMeasures.length);
                     const selectedOriginalMeasure = originalMeasures[randomIndex];
 
-                    // 선택된 원본 마디의 자식 노드(음표, 지시 등)를 모두 추가합니다.
-                    // 단, attributes는 별도로 처리하므로 제외합니다.
+                    // 선택된 원본 마디의 자식 노드(음표, 지시 등)를 모두 추가합니다。
+                    // 단, attributes는 별도로 처리하므로 제외합니다。
                     Array.from(selectedOriginalMeasure.children).forEach(child => {
                         if (child.tagName !== "attributes") {
                             newMeasure.appendChild(newXmlDoc.importNode(child, true));
