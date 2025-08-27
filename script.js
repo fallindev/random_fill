@@ -100,6 +100,46 @@ document.addEventListener("DOMContentLoaded", () => {
                             newAttributes.appendChild(timeElement);
                         }
                         newMeasure.appendChild(newAttributes);
+
+                        // Add or modify <staff-lines> to 5
+                        let staffDetailsElement = newAttributes.querySelector("staff-details");
+                        if (!staffDetailsElement) {
+                            staffDetailsElement = newXmlDoc.createElement("staff-details");
+                            staffDetailsElement.setAttribute("number", "1"); // Assuming staff number 1
+                            newAttributes.appendChild(staffDetailsElement);
+                        }
+                        let staffLinesElement = staffDetailsElement.querySelector("staff-lines");
+                        if (!staffLinesElement) {
+                            staffLinesElement = newXmlDoc.createElement("staff-lines");
+                            staffDetailsElement.appendChild(staffLinesElement);
+                        }
+                        staffLinesElement.textContent = "5";
+
+                        // --- TEMPORARY: Change clef to G for testing 5-line staff ---
+                        let clefElement = newAttributes.querySelector("clef");
+                        if (clefElement) {
+                            let signElement = clefElement.querySelector("sign");
+                            if (signElement) signElement.textContent = "G";
+                            let lineElement = clefElement.querySelector("line");
+                            if (!lineElement) {
+                                lineElement = newXmlDoc.createElement("line");
+                                clefElement.appendChild(lineElement);
+                            }
+                            lineElement.textContent = "2";
+                        } else {
+                            clefElement = newXmlDoc.createElement("clef");
+                            clefElement.setAttribute("number", "1");
+                            const signElement = newXmlDoc.createElement("sign");
+                            signElement.textContent = "G";
+                            const lineElement = newXmlDoc.createElement("line");
+                            lineElement.textContent = "2";
+                            clefElement.appendChild(signElement);
+                            clefElement.appendChild(lineElement);
+                            newAttributes.appendChild(clefElement);
+                        }
+                        // --- END TEMPORARY CHANGE ---
+
+                        newMeasure.appendChild(newAttributes);
                     }
                 }
 
