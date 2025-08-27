@@ -883,7 +883,7 @@
   <measure number="1">
    <print new-system="yes"/>
    <attributes>
-    <divisions>2</divisions>
+    <divisions>1</divisions>
     <key>
      <fifths>0</fifths>
      <mode>major</mode>
@@ -902,6 +902,11 @@
 ?>
     </staff-details>
    </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[1]]></words>
+    </direction-type>
+   </direction>
    <direction directive="yes">
     <direction-type>
      <metronome default-y="40" parentheses="no">
@@ -926,32 +931,9 @@
     <duration>1</duration>
     <instrument id="P1-I1"/>
     <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
+    <type>quarter</type>
+    <stem>down</stem>
     <notehead>normal</notehead>
-    <beam number="1">begin</beam>
-    <notations>
-     <technical>
-<?GP 
-<root>
-<fret>38</fret>
-</root>
-?>
-     </technical>
-    </notations>
-   </note>
-   <note>
-    <unpitched>
-     <display-step>C</display-step>
-     <display-octave>5</display-octave>
-    </unpitched>
-    <duration>1</duration>
-    <instrument id="P1-I1"/>
-    <voice>1</voice>
-    <type>eighth</type>
-    <stem>up</stem>
-    <notehead>normal</notehead>
-    <beam number="1">end</beam>
     <notations>
      <technical>
 <?GP 
@@ -965,6 +947,7 @@
   </measure>
   <measure number="2">
    <attributes>
+    <divisions>2</divisions>
     <staff-details number="1">
 <?GP 
 <root>
@@ -972,6 +955,11 @@
 ?>
     </staff-details>
    </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[2,A]]></words>
+    </direction-type>
+   </direction>
    <direction>
     <direction-type>
      <dynamics>
@@ -988,7 +976,7 @@
     <instrument id="P1-I1"/>
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <notehead>normal</notehead>
     <beam number="1">begin</beam>
     <notations>
@@ -1003,21 +991,21 @@
    </note>
    <note>
     <unpitched>
-     <display-step>F</display-step>
-     <display-octave>4</display-octave>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
     </unpitched>
     <duration>1</duration>
-    <instrument id="P1-I9"/>
+    <instrument id="P1-I1"/>
     <voice>1</voice>
     <type>eighth</type>
-    <stem>up</stem>
+    <stem>down</stem>
     <notehead>normal</notehead>
     <beam number="1">end</beam>
     <notations>
      <technical>
 <?GP 
 <root>
-<fret>36</fret>
+<fret>38</fret>
 </root>
 ?>
      </technical>
@@ -1033,6 +1021,1021 @@
 ?>
     </staff-details>
    </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[3]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="4">
+   <attributes>
+    <divisions>4</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[4,D]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="5">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[5,E]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="6">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[6,C]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="7">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[7,F]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="8">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[8,B]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="9">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[9]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+   </note>
+  </measure>
+  <measure number="10">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[10,I]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="11">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[11]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="12">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[12,H]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>3</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <dot/>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="13">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[13,G]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="14">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[14]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>3</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <dot/>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="15">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[15]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>3</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <dot/>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="16">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[A1]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="17">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[A2]]></words>
+    </direction-type>
+   </direction>
    <direction>
     <direction-type>
      <dynamics>
@@ -1085,7 +2088,7 @@
     </notations>
    </note>
   </measure>
-  <measure number="4">
+  <measure number="18">
    <attributes>
     <staff-details number="1">
 <?GP 
@@ -1094,6 +2097,11 @@
 ?>
     </staff-details>
    </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[A3]]></words>
+    </direction-type>
+   </direction>
    <direction>
     <direction-type>
      <dynamics>
@@ -1146,7 +2154,1751 @@
     </notations>
    </note>
   </measure>
-  <measure number="5">
+  <measure number="19">
+   <attributes>
+    <divisions>4</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[B1]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="20">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[B2]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="21">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[B3]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="22">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[B4]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="23">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[B5]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="24">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[B6]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="25">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[C1]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="26">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[C2]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="27">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[C3]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="28">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[C4]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="29">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[C5]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="30">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[C6]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="31">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[D1]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="32">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="33">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="34">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="35">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="36">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="37">
    <print new-system="yes"/>
    <attributes>
     <staff-details number="1">
@@ -1171,6 +3923,1653 @@
     <duration>1</duration>
     <instrument id="P1-I9"/>
     <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="38">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="39">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="40">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[D10]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="41">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[E1]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="42">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[E2]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="43">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[E3]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="44">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[E4]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="45">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[E5]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="46">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[E6]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="47">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[F1]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="48">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[F2]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="49">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[F3]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="50">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[F4]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="51">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[F5]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="52">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[F6]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="53">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[G1]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="54">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[G2]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="55">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[G3]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
     <type>eighth</type>
     <stem>up</stem>
     <notehead>normal</notehead>
@@ -1191,6 +5590,404 @@
      <display-octave>4</display-octave>
     </unpitched>
     <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="56">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[H1]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>3</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <dot/>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="57">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[H2]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>3</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <dot/>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="58">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[H3]]></words>
+    </direction-type>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>3</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <dot/>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="59">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[I1]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="60">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[I2]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>C</display-step>
+     <display-octave>5</display-octave>
+    </unpitched>
+    <duration>2</duration>
+    <instrument id="P1-I1"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>38</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+  </measure>
+  <measure number="61">
+   <print new-system="yes"/>
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction placement="above">
+    <direction-type>
+     <words><![CDATA[I3]]></words>
+    </direction-type>
+   </direction>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>16th</type>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>1</duration>
+    <instrument id="P1-I9"/>
+    <voice>1</voice>
+    <type>16th</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<fret>36</fret>
+</root>
+?>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <unpitched>
+     <display-step>F</display-step>
+     <display-octave>4</display-octave>
+    </unpitched>
+    <duration>2</duration>
     <instrument id="P1-I9"/>
     <voice>1</voice>
     <type>eighth</type>
